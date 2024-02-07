@@ -1,0 +1,869 @@
+{
+  "Version": "0.1",
+  "Active": true,
+  "NPC_Generation_Map": [
+    {
+      "Generation": "millenial",
+      "First_Names": [
+        "James",
+        "John",
+        "Robert",
+        "Michael",
+        "William",
+        "David",
+        "Richard",
+        "Joseph",
+        "Thomas",
+        "Charles",
+        "Chris",
+        "Daniel",
+        "Matthew",
+        "Anthony",
+        "Donald",
+        "Mark",
+        "Steve",
+        "Andrew",
+        "Josh",
+        "Jason",
+        "Eric",
+        "Justin",
+        "Scott",
+        "Ben",
+        "Alex",
+        "Timothy",
+        "Larry",
+        "Jeffrey",
+        "Adam",
+        "Aaron",
+        "Brandon",
+        "Brian",
+        "Cody",
+        "Colin",
+        "Connor",
+        "Derek",
+        "Dustin",
+        "Dylan",
+        "Ethan",
+        "Frank",
+        "Garrett",
+        "Gregory",
+        "Jacob",
+        "Jared",
+        "Jesse",
+        "Jordan",
+        "Kyle",
+        "Kevin",
+        "Logan",
+        "Lucas",
+        "Marcus",
+        "Max",
+        "Miles",
+        "Mitchell",
+        "Nathan",
+        "Nicholas",
+        "Patrick",
+        "Paul",
+        "Peter",
+        "Philip",
+        "Ryan",
+        "Samuel",
+        "Sean",
+        "Shawn",
+        "Spencer",
+        "Stephen",
+        "Taylor",
+        "Trevor",
+        "Travis",
+        "Tyler",
+        "Victor",
+        "Vincent",
+        "Wesley",
+        "Wyatt",
+        "Zachary"
+      ],
+      "Hand_Description": [
+        "smooth",
+        "firm",
+        "manly",
+        "masculine",
+        "clammy",
+        "sweaty"
+      ],
+      "NPC_Type_Map": [
+        {
+          "Type": "bad",
+          "NPCs": [
+            {
+              "Picture_Name": "1",
+              "Attractiveness": 3,
+              "Unfamiliar_Name_List": [
+                "oily-haired _guy",
+                "brown-haired _guy"
+              ],
+              "Description_List": [
+                "a _guy with glasses",
+                "a _guy with glasses and oily hair"
+              ],
+              "Tags": [
+                "nerd"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "2",
+              "Attractiveness": 3,
+              "Unfamiliar_Name_List": [
+                "_guy with a hat",
+                "_guy with a hat and glasses"
+              ],
+              "Description_List": [
+                "a _guy with a vaguely annoying expresssion",
+                "a _guy who looks like a bit of a stoner"
+              ],
+              "Tags": [
+                "hat",
+                "glasses",
+                "annoying"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "3",
+              "Attractiveness": 2,
+              "Unfamiliar_Name_List": [
+                "chubby _guy",
+                "nerdy _guy"
+              ],
+              "Description_List": [
+                "a fairly chubby _guy with glasses",
+                "a _guy with glasses and a rotund waist"
+              ],
+              "Tags": [
+                "nerd",
+                "chubby"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "4",
+              "Attractiveness": 3,
+              "Unfamiliar_Name_List": [
+                "nerd",
+                "creepy guy"
+              ],
+              "Description_List": [
+                "a creepy-looking guy with dark glasses",
+                "a weird guy with freckles"
+              ],
+              "Tags": [
+                "nerd",
+                "creepy"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "5",
+              "Attractiveness": 5,
+              "Unfamiliar_Name_List": [
+                "_guy with a mustache",
+                "blue-eyed _guy"
+              ],
+              "Description_List": [
+                "a _guy with a mustache",
+                "a _guy sporting a faint mustache"
+              ],
+              "Tags": [],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "6",
+              "Attractiveness": 3,
+              "Unfamiliar_Name_List": [
+                "chubby _guy",
+                "creepy _guy"
+              ],
+              "Description_List": [
+                "a chubby-looking _guy",
+                "a fairly chubby _guy with a neckbeard"
+              ],
+              "Tags": [
+                "chubby",
+                "beard",
+                "nerd"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "7",
+              "Attractiveness": 3,
+              "Unfamiliar_Name_List": [
+                "nerd",
+                "annoying guy"
+              ],
+              "Description_List": [
+                "a nerdy guy",
+                "an annoying-looking guy with glasses"
+              ],
+              "Tags": [
+                "nerd",
+                "annoying"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "8",
+              "Attractiveness": 3,
+              "Unfamiliar_Name_List": [
+                "weird guy",
+                "strange guy"
+              ],
+              "Description_List": [
+                "a weird-smelling guy",
+                "a guy who looks like he has poor hygiene"
+              ],
+              "Tags": [
+                "smelly",
+                "annoying",
+                "beard"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "9",
+              "Attractiveness": 5,
+              "Unfamiliar_Name_List": [
+                "tan _guy",
+                "curly-haired _guy"
+              ],
+              "Description_List": [
+                "a strangely oily guy",
+                "a guy with large ears"
+              ],
+              "Tags": [],
+              "Race": "latin",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "10",
+              "Attractiveness": 4,
+              "Unfamiliar_Name_List": [
+                "oily-haired _guy",
+                "tan _guy"
+              ],
+              "Description_List": [
+                "a guy with slick hair",
+                "a guy with an oily head of hair"
+              ],
+              "Tags": [
+                "annoying"
+              ],
+              "Race": "latin",
+              "DickType": "bwc"
+            }
+          ]
+        },
+        {
+          "Type": "chad",
+          "NPCs": [
+            {
+              "Picture_Name": "1",
+              "Attractiveness": 8,
+              "Unfamiliar_Name_List": [
+                "blonde-haired dude",
+                "smiling guy"
+              ],
+              "Description_List": [
+                "a _guy with slick hair and a confident smile",
+                "a _guy who just exudes confidence"
+              ],
+              "Tags": [
+                "chad"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "2",
+              "Attractiveness": 10,
+              "Unfamiliar_Name_List": [
+                "chad",
+                "luxurious man",
+                "total gentleman"
+              ],
+              "Description_List": [
+                "a _guy with long, curly hair",
+                "a tanned _guy with long black hair"
+              ],
+              "Tags": [
+                "skinny",
+                "chad",
+                "gentleman"
+              ],
+              "Race": "latin",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "3",
+              "Attractiveness": 7,
+              "Unfamiliar_Name_List": [
+                "smart-looking _guy",
+                "_guy who looks like a tech nerd"
+              ],
+              "Description_List": [
+                "a guy with a big chin",
+                "a _guy who looks like he's gonna tell you about his NFT project"
+              ],
+              "Tags": [
+                "chad",
+                "nerd",
+                "smelly"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "4",
+              "Attractiveness": 6,
+              "Unfamiliar_Name_List": [
+                "purple-haired _guy",
+                "_guy with purple hair"
+              ],
+              "Description_List": [
+                "a _guy with a wry smile and purple hair",
+                "a shortish _guy"
+              ],
+              "Tags": [
+                "chad",
+                "charming",
+                "short"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "5",
+              "Attractiveness": 10,
+              "Unfamiliar_Name_List": [
+                "jock",
+                "total jock"
+              ],
+              "Description_List": [
+                "a tall, muscular guy",
+                "a big, muscular guy"
+              ],
+              "Tags": [
+                "chad",
+                "jock",
+                "beard",
+                "bully"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "6",
+              "Attractiveness": 7,
+              "Unfamiliar_Name_List": [
+                "brown-haired guy",
+                "relaxed _guy"
+              ],
+              "Description_List": [
+                "a guy who looks like he's always calm",
+                "a _guy wearing sunglasses"
+              ],
+              "Tags": [
+                "chad"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "7",
+              "Attractiveness": 7,
+              "Unfamiliar_Name_List": [
+                "blue-eyed _guy",
+                "mean-looking _guy"
+              ],
+              "Description_List": [
+                "a brown-haired _guy"
+              ],
+              "Tags": [
+                "bully"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "8",
+              "Attractiveness": 9,
+              "Unfamiliar_Name_List": [
+                "ginger",
+                "blue-eyed _guy"
+              ],
+              "Description_List": [
+                "a blue-eyed ginger",
+                "a _guy with blue eyes"
+              ],
+              "Tags": [
+                "chad",
+                "charming"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "9",
+              "Attractiveness": 7,
+              "Unfamiliar_Name_List": [
+                "bearded _guy",
+                "_guy with a beard",
+                "blue-eyed _guy"
+              ],
+              "Description_List": [
+                "a tall guy with a beard and blue eyes",
+                "a tall, bearded _guy"
+              ],
+              "Tags": [
+                "chad",
+                "jock",
+                "beard"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "10",
+              "Attractiveness": 7,
+              "Unfamiliar_Name_List": [
+                "slick guy",
+                "suave man"
+              ],
+              "Description_List": [
+                "a suave-looking manwhore",
+                "a stylish fuckboy"
+              ],
+              "Tags": [
+                "chad",
+                "fuckboy",
+                "beard"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            }
+          ]
+        },
+        {
+          "Type": "coworker",
+          "NPCs": [
+            {
+              "Picture_Name": "1",
+              "Attractiveness": 8,
+              "Unfamiliar_Name_List": [
+                "suave businessman",
+                "well-groomed guy"
+              ],
+              "Description_List": [
+                "a _guy in a sharp blue suit with a confident grin",
+                "a _guy with a trimmed beard and piercing gaze"
+              ],
+              "Tags": [
+                "chad",
+                "beard",
+                "suit"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "2",
+              "Attractiveness": 10,
+              "Unfamiliar_Name_List": [
+                "blonde businessman",
+                "blonde _guy",
+                "nice-looking _guy",
+                "golden-haired _guy"
+              ],
+              "Description_List": [
+                "a _guy with blue eyes and a clean-cut appearance",
+                "a _guy who looks like he just walked out of a magazine",
+                "a _guy with a trim beard and a charming smile",
+                "a _guy with a confident aura and a winning grin",
+                "a _guy with a suave look and a gentle manner",
+                "a _guy with a polished appearance and a warm personality",
+                "a _guy with a friendly demeanor and an attractive face",
+                "a _guy with a professional look and an affable attitude"
+              ],
+              "Tags": [
+                "nice",
+                "gentleman"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "3",
+              "Attractiveness": 5,
+              "Unfamiliar_Name_List": [
+                "chubby _guy",
+                "intellectual-looking _guy"
+              ],
+              "Description_List": [
+                "a _guy with a receding hairline and chunky 80s glasses",
+                "a _guy who looks like he belongs in a vintage bookstore"
+              ],
+              "Tags": [
+                "smart",
+                "intellectual",
+                "chubby",
+                "nostalgic"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            [
+              "4",
+              9,
+              [
+                "blonde _guy",
+                "sleazy-looking _guy"
+              ],
+              [
+                "a guy with chiseled jawline and piercing blue eyes",
+                "a guy with high cheekbones and a little smile"
+              ],
+              [
+                "chad",
+                "creepy",
+                "bully",
+                "ambitious"
+              ]
+            ],
+            {
+              "Picture_Name": "4",
+              "Attractiveness": 9,
+              "Unfamiliar_Name_List": [
+                "blonde _guy",
+                "sleazy-looking _guy"
+              ],
+              "Description_List": [
+                "a guy with chiseled jawline and piercing blue eyes",
+                "a guy with high cheekbones and a little smile"
+              ],
+              "Tags": [
+                "chad",
+                "creepy",
+                "bully",
+                "ambitious"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "5",
+              "Attractiveness": 9,
+              "Unfamiliar_Name_List": [
+                "attractive Asian _guy",
+                "smart-looking _guy"
+              ],
+              "Description_List": [
+                "a _guy with a chiseled jawline and a clean haircut",
+                "a _guy who looks like he could be a model"
+              ],
+              "Tags": [
+                "chad",
+                "ambitious"
+              ],
+              "Race": "asian",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "6",
+              "Attractiveness": 8,
+              "Unfamiliar_Name_List": [
+                "suave-looking _guy",
+                "latin _guy"
+              ],
+              "Description_List": [
+                "a guy with a strong jawline and a charming smile",
+                "a _guy who looks like he just stepped out of a fashion magazine"
+              ],
+              "Tags": [
+                "chad",
+                "latin",
+                "suave",
+                "slick",
+                "jock",
+                "fuckboy",
+                "playboy"
+              ],
+              "Race": "latin",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "7",
+              "Attractiveness": 5,
+              "Unfamiliar_Name_List": [
+                "ginger",
+                "blue-eyed _guy"
+              ],
+              "Description_List": [
+                "a blue-eyed ginger",
+                "a _guy with blue eyes"
+              ],
+              "Tags": [
+                "it",
+                "nerd"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "8",
+              "Attractiveness": 2,
+              "Unfamiliar_Name_List": [
+                "chubby _guy with buzzcut",
+                "chunky _guy"
+              ],
+              "Description_List": [
+                "a guy with a crew cut and a slight frown",
+                "a _guy who looks like he's about to start a fight"
+              ],
+              "Tags": [
+                "bully",
+                "chubby",
+                "fuckboy",
+                "breeder"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "9",
+              "Attractiveness": 6,
+              "Unfamiliar_Name_List": [
+                "young _guy",
+                "brooding _guy"
+              ],
+              "Description_List": [
+                "a _guy with a dark expression, you can't quite tell what's on his mind",
+                "a _guy who looks like he's lost in thought"
+              ],
+              "Tags": [
+                "brooding",
+                "intense"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "10",
+              "Attractiveness": 10,
+              "Unfamiliar_Name_List": [
+                "clean-cut _guy",
+                "well-groomed _guy"
+              ],
+              "Description_List": [
+                "a _guy with a charming smile and checkered shirt",
+                "a _guy who looks like he stepped out of a men's magazine"
+              ],
+              "Tags": [
+                "chad",
+                "friendly",
+                "ambitious"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            }
+          ]
+        },
+        {
+          "Type": "lad",
+          "NPCs": [
+            {
+              "Picture_Name": "1",
+              "Attractiveness": 6,
+              "Unfamiliar_Name_List": [
+                "bald _guy",
+                "smiling bald _guy"
+              ],
+              "Description_List": [
+                "a smiling bald _guy",
+                "a clean-cut bald guy"
+              ],
+              "Tags": [
+                "bald",
+                "smells good"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "2",
+              "Attractiveness": 4,
+              "Unfamiliar_Name_List": [
+                "balding _guy",
+                "_guy with a scruffy beard"
+              ],
+              "Description_List": [
+                "a nicely-dressed guy with scruffy facial hair",
+                "a balding guy"
+              ],
+              "Tags": [
+                "beard"
+              ],
+              "Race": "white",
+              "DickType": "white"
+            },
+            {
+              "Picture_Name": "3",
+              "Attractiveness": 6,
+              "Unfamiliar_Name_List": [
+                "greasy guy",
+                "_guy with soulful eyes"
+              ],
+              "Description_List": [
+                "a guy with a faint mustache and goatee",
+                "a guy with an unreadable expression"
+              ],
+              "Tags": [
+                "beard"
+              ],
+              "Race": "latin",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "4",
+              "Attractiveness": 5,
+              "Unfamiliar_Name_List": [
+                "brown-haired _guy",
+                "normal dude"
+              ],
+              "Description_List": [
+                "a normal-looking guy",
+                "a guy with nicely combed hair",
+                "a smiling _guy"
+              ],
+              "Tags": [],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "5",
+              "Attractiveness": 6,
+              "Unfamiliar_Name_List": [
+                "brown-haired guy",
+                "normal dude"
+              ],
+              "Description_List": [
+                "a guy who looks easily upset",
+                "a _guy with a scruffy goatee"
+              ],
+              "Tags": [
+                "bully",
+                "beard",
+                "jock"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "6",
+              "Attractiveness": 2,
+              "Unfamiliar_Name_List": [
+                "bearded guy",
+                "guy with beard"
+              ],
+              "Description_List": [
+                "a friendly, normal looking guy",
+                "a guy with an oily face and a beard",
+                "a _guy with bad B.O."
+              ],
+              "Tags": [
+                "nerd",
+                "smelly",
+                "beard"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "7",
+              "Attractiveness": 5,
+              "Unfamiliar_Name_List": [
+                "smug-looking guy",
+                "confident _guy"
+              ],
+              "Description_List": [
+                "a _guy with a smug smile",
+                "a _guy with a smug grin"
+              ],
+              "Tags": [
+                "fuckboy"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "8",
+              "Attractiveness": 6,
+              "Unfamiliar_Name_List": [
+                "brown-haired _guy",
+                "dreamer"
+              ],
+              "Description_List": [
+                "a _guy with a scruffy beard",
+                "a _guy with a scruffy appearance"
+              ],
+              "Tags": [
+                "smelly",
+                "beard"
+              ],
+              "Race": "white",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "9",
+              "Attractiveness": 6,
+              "Unfamiliar_Name_List": [
+                "_guy with glasses",
+                "respectable guy",
+                "clean-cut _guy"
+              ],
+              "Description_List": [
+                "a clean-cut _guy",
+                "an asian guy"
+              ],
+              "Tags": [],
+              "Race": "asian",
+              "DickType": "bwc"
+            },
+            {
+              "Picture_Name": "10",
+              "Attractiveness": 5,
+              "Unfamiliar_Name_List": [
+                "brown-haired dude",
+                "normal guy"
+              ],
+              "Description_List": [
+                "a normal-looking guy",
+                "a guy who looks pretty normal",
+                "a _guy with big eyes and a big smile"
+              ],
+              "Tags": [],
+              "Race": "white",
+              "DickType": "bwc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
