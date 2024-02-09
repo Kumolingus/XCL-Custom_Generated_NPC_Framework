@@ -311,388 +311,378 @@
             }
           ]
         },
-        [
-          7,
-          "big",
-          "veiny",
-          "round",
-          8,
-          8,
-          10,
-          8
-        ],
-        [
-          8,
-          "full-looking",
-          "veiny",
-          "bulbous",
-          8,
-          7,
-          10,
-          7
-        ],
-        [
-          11,
-          "big",
-          "veiny",
-          "sculpted",
-          8,
-          7,
-          10,
-          7
-        ],
-        [
-          15,
-          "smooth",
-          "curved",
-          "sculptural",
-          8,
-          8,
-          9,
-          6
-        ],
-        [
-          17,
-          "shaved",
-          "veiny",
-          "flared",
-          8,
-          6,
-          8,
-          6
-        ],
-        [
-          18,
-          "shaved",
-          "veiny",
-          "pink",
-          8,
-          9,
-          10,
-          6
-        ],
-        [
-          21,
-          "dangling",
-          "veiny",
-          "helmet-shaped",
-          8,
-          7,
-          7,
-          8
-        ],
-        [
-          28,
-          "smooth",
-          "smooth",
-          "smooth, red",
-          8,
-          6,
-          7,
-          5
-        ],
-        [
-          44,
-          "hairy, wrinkly",
-          "veiny",
-          "purple",
-          8,
-          10,
-          8,
-          9
-        ],
-        [
-          50,
-          "big, smooth",
-          "curved",
-          "shiny",
-          8,
-          7,
-          9,
-          7
-        ],
-        [
-          60,
-          "lopsided",
-          "pale",
-          "shiny, red",
-          8,
-          7,
-          8,
-          7
-        ],
-        [
-          66,
-          "hairy",
-          "veiny",
-          "triangular",
-          8,
-          6,
-          8,
-          8
-        ],
-        [
-          67,
-          "hairy",
-          "veiny",
-          "fat",
-          8,
-          9,
-          7,
-          7
-        ],
-        [
-          74,
-          "tight",
-          "veiny",
-          "helmet-shaped",
-          8,
-          10,
-          8,
-          4
-        ],
-        [
-          80,
-          "smooth",
-          "uncut",
-          "red, uncircumcised",
-          8,
-          7,
-          7,
-          8
-        ],
-        [
-          84,
-          "heavy",
-          "fat",
-          "angular",
-          8,
-          9,
-          10,
-          5
-        ],
-        [
-          85,
-          "heavy",
-          "meaty",
-          "domed",
-          8,
-          6,
-          5,
-          7
-        ],
-        [
-          94,
-          "heavy",
-          "uncut",
-          "uncircumcised",
-          8,
-          6,
-          6,
-          6
-        ],
-        [
-          95,
-          "tight",
-          "veiny",
-          "precum-drooling",
-          8,
-          7,
-          6,
-          3
-        ],
-        [
-          103,
-          "dangling",
-          "veiny",
-          "helmet-shaped",
-          8,
-          5,
-          6,
-          10
-        ],
-        [
-          104,
-          "red",
-          "veiny",
-          "wide-brimmed",
-          8,
-          6,
-          7,
-          6
-        ],
-        [
-          126,
-          "hefty",
-          "uncut",
-          "uncircumcised",
-          8,
-          7,
-          5,
-          6
-        ],
-        [
-          141,
-          "hairy",
-          "fat",
-          "helmet-shaped",
-          8,
-          10,
-          6,
-          9
-        ],
-        [
-          142,
-          "smooth",
-          "extremely veiny",
-          "red",
-          8,
-          9,
-          7,
-          10
-        ],
-        [
-          144,
-          "hairy",
-          "banana-shaped",
-          "shiny",
-          8,
-          10,
-          7,
-          10
-        ],
-        [
-          150,
-          "hairy",
-          "aggressive-looking",
-          "shiny",
-          8,
-          9,
-          8,
-          7
-        ],
-        [
-          151,
-          "wrinkly",
-          "curved",
-          "red",
-          8,
-          8,
-          9,
-          7
-        ],
-        [
-          153,
-          "smooth",
-          "elegant",
-          "uncut",
-          8,
-          8,
-          7,
-          9
-        ],
-        [
-          154,
-          "wrinkly",
-          "heavily-veined",
-          "uncut",
-          8,
-          8,
-          7,
-          7
-        ],
-        [
-          157,
-          "hairless",
-          "smooth",
-          "mushroom-shaped",
-          8,
-          8,
-          8,
-          9
-        ],
-        [
-          158,
-          "dark-colored",
-          "curved",
-          "mushroom-shaped",
-          8,
-          8,
-          9,
-          6
-        ],
-        [
-          166,
-          "wrinkly",
-          "veiny",
-          "mushroom-shaped",
-          8,
-          8,
-          9,
-          8
-        ],
-        [
-          169,
-          "dark-colored",
-          "purple",
-          "shiny",
-          8,
-          8,
-          8,
-          9
-        ],
-        [
-          173,
-          "tight",
-          "long",
-          "uncut",
-          8,
-          6,
-          10,
-          8
-        ],
-        [
-          183,
-          "dangling",
-          "equine",
-          "uncut",
-          8,
-          7,
-          9,
-          10
-        ],
-        [
-          189,
-          "imposing",
-          "veiny",
-          "red",
-          8,
-          8,
-          7,
-          10
-        ],
-        [
-          192,
-          "wrinkly",
-          "curved",
-          "helmet-shaped",
-          8,
-          7,
-          8,
-          5
-        ],
         {
           "Rate": 8,
           "Dick_List": [
             {
-              "Picture_Name": "",
+              "Picture_Name": "7",
               "Img_Type": ".jpg",
-              "Balls_Desc": "",
-              "Cock_Desc": "",
-              "Tip_Desc": "",
-              "Cock_Fatness": 0,
-              "Cock_Length": 0,
-              "Ball_Size": 0
+              "Balls_Desc": "big",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "round",
+              "Cock_Fatness": 8,
+              "Cock_Length": 10,
+              "Ball_Size": 8
+            },
+            {
+              "Picture_Name": "8",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "full-looking",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "bulbous",
+              "Cock_Fatness": 7,
+              "Cock_Length": 10,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "11",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "big",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "sculpted",
+              "Cock_Fatness": 7,
+              "Cock_Length": 10,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "15",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "smooth",
+              "Cock_Desc": "curved",
+              "Tip_Desc": "sculptural",
+              "Cock_Fatness": 8,
+              "Cock_Length": 9,
+              "Ball_Size": 6
+            },
+            {
+              "Picture_Name": "17",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "shaved",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "flared",
+              "Cock_Fatness": 6,
+              "Cock_Length": 8,
+              "Ball_Size": 6
+            },
+            {
+              "Picture_Name": "18",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "shaved",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "pink",
+              "Cock_Fatness": 9,
+              "Cock_Length": 10,
+              "Ball_Size": 6
+            },
+            {
+              "Picture_Name": "21",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "dangling",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "helmet-shaped",
+              "Cock_Fatness": 7,
+              "Cock_Length": 7,
+              "Ball_Size": 8
+            },
+            {
+              "Picture_Name": "28",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "smooth",
+              "Cock_Desc": "smooth",
+              "Tip_Desc": "smooth, red",
+              "Cock_Fatness": 6,
+              "Cock_Length": 7,
+              "Ball_Size": 5
+            },
+            {
+              "Picture_Name": "44",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hairy, wrinkly",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "purple",
+              "Cock_Fatness": 10,
+              "Cock_Length": 8,
+              "Ball_Size": 9
+            },
+            {
+              "Picture_Name": "50",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "big, smooth",
+              "Cock_Desc": "curved",
+              "Tip_Desc": "shiny",
+              "Cock_Fatness": 7,
+              "Cock_Length": 9,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "60",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "lopsided",
+              "Cock_Desc": "pale",
+              "Tip_Desc": "shiny, red",
+              "Cock_Fatness": 7,
+              "Cock_Length": 8,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "66",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hairy",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "triangular",
+              "Cock_Fatness": 6,
+              "Cock_Length": 8,
+              "Ball_Size": 8
+            },
+            {
+              "Picture_Name": "67",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hairy",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "fat",
+              "Cock_Fatness": 9,
+              "Cock_Length": 7,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "74",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "tight",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "helmet-shaped",
+              "Cock_Fatness": 10,
+              "Cock_Length": 8,
+              "Ball_Size": 4
+            },
+            {
+              "Picture_Name": "80",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "smooth",
+              "Cock_Desc": "uncut",
+              "Tip_Desc": "red, uncircumcised",
+              "Cock_Fatness": 7,
+              "Cock_Length": 7,
+              "Ball_Size": 8
+            },
+            {
+              "Picture_Name": "84",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "heavy",
+              "Cock_Desc": "fat",
+              "Tip_Desc": "angular",
+              "Cock_Fatness": 9,
+              "Cock_Length": 10,
+              "Ball_Size": 5
+            },
+            {
+              "Picture_Name": "85",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "heavy",
+              "Cock_Desc": "meaty",
+              "Tip_Desc": "domed",
+              "Cock_Fatness": 6,
+              "Cock_Length": 5,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "94",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "heavy",
+              "Cock_Desc": "uncut",
+              "Tip_Desc": "helmet-shaped",
+              "Cock_Fatness": 6,
+              "Cock_Length": 6,
+              "Ball_Size": 6
+            },
+            {
+              "Picture_Name": "95",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "tight",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "precum-drooling",
+              "Cock_Fatness": 7,
+              "Cock_Length": 6,
+              "Ball_Size": 3
+            },
+            {
+              "Picture_Name": "103",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "dangling",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "helmet-shaped",
+              "Cock_Fatness": 5,
+              "Cock_Length": 6,
+              "Ball_Size": 10
+            },
+            {
+              "Picture_Name": "104",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "red",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "wide-brimmed",
+              "Cock_Fatness": 6,
+              "Cock_Length": 7,
+              "Ball_Size": 6
+            },
+            {
+              "Picture_Name": "126",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hefty",
+              "Cock_Desc": "uncut",
+              "Tip_Desc": "uncircumcised",
+              "Cock_Fatness": 7,
+              "Cock_Length": 5,
+              "Ball_Size": 6
+            },
+            {
+              "Picture_Name": "141",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hairy",
+              "Cock_Desc": "fat",
+              "Tip_Desc": "helmet-shaped",
+              "Cock_Fatness": 10,
+              "Cock_Length": 6,
+              "Ball_Size": 8
+            },
+            {
+              "Picture_Name": "142",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "smooth",
+              "Cock_Desc": "extremely veiny",
+              "Tip_Desc": "red",
+              "Cock_Fatness": 9,
+              "Cock_Length": 7,
+              "Ball_Size": 10
+            },
+            {
+              "Picture_Name": "144",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hairy",
+              "Cock_Desc": "banana-shaped",
+              "Tip_Desc": "shiny",
+              "Cock_Fatness": 10,
+              "Cock_Length": 7,
+              "Ball_Size": 10
+            },
+            {
+              "Picture_Name": "150",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hairy",
+              "Cock_Desc": "aggressive-looking",
+              "Tip_Desc": "shiny",
+              "Cock_Fatness": 9,
+              "Cock_Length": 8,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "151",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "wrinkly",
+              "Cock_Desc": "curved",
+              "Tip_Desc": "red",
+              "Cock_Fatness": 8,
+              "Cock_Length": 8,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "153",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "smooth",
+              "Cock_Desc": "elegant",
+              "Tip_Desc": "uncut",
+              "Cock_Fatness": 8,
+              "Cock_Length": 7,
+              "Ball_Size": 9
+            },
+            {
+              "Picture_Name": "154",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "wrinkly",
+              "Cock_Desc": "heavily-veined",
+              "Tip_Desc": "uncut",
+              "Cock_Fatness": 8,
+              "Cock_Length": 7,
+              "Ball_Size": 7
+            },
+            {
+              "Picture_Name": "157",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "hairless",
+              "Cock_Desc": "smooth",
+              "Tip_Desc": "mushroom-shaped",
+              "Cock_Fatness": 8,
+              "Cock_Length": 8,
+              "Ball_Size": 9
+            },
+            {
+              "Picture_Name": "158",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "dark-colored",
+              "Cock_Desc": "curved",
+              "Tip_Desc": "mushroom-shaped",
+              "Cock_Fatness": 8,
+              "Cock_Length": 9,
+              "Ball_Size": 6
+            },
+            {
+              "Picture_Name": "166",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "wrinkly",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "mushroom-shaped",
+              "Cock_Fatness": 8,
+              "Cock_Length": 9,
+              "Ball_Size": 8
+            },
+            {
+              "Picture_Name": "169",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "dark-colored",
+              "Cock_Desc": "purple",
+              "Tip_Desc": "shiny",
+              "Cock_Fatness": 8,
+              "Cock_Length": 8,
+              "Ball_Size": 9
+            },
+            {
+              "Picture_Name": "173",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "tight",
+              "Cock_Desc": "long",
+              "Tip_Desc": "uncut",
+              "Cock_Fatness": 6,
+              "Cock_Length": 10,
+              "Ball_Size": 8
+            },
+            {
+              "Picture_Name": "183",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "dangling",
+              "Cock_Desc": "equine",
+              "Tip_Desc": "uncut",
+              "Cock_Fatness": 7,
+              "Cock_Length": 9,
+              "Ball_Size": 10
+            },
+            {
+              "Picture_Name": "189",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "imposing",
+              "Cock_Desc": "veiny",
+              "Tip_Desc": "red",
+              "Cock_Fatness": 8,
+              "Cock_Length": 7,
+              "Ball_Size": 10
+            },
+            {
+              "Picture_Name": "192",
+              "Img_Type": ".jpg",
+              "Balls_Desc": "wrinkly",
+              "Cock_Desc": "curved",
+              "Tip_Desc": "helmet-shaped",
+              "Cock_Fatness": 7,
+              "Cock_Length": 8,
+              "Ball_Size": 5
             }
           ]
         }
