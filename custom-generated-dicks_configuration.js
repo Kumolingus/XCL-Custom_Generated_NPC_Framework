@@ -1,13 +1,13 @@
 const default_bwc_dick_rate_1_active = true;
-const default_bwc_dick_rate_2_active = true;
-const default_bwc_dick_rate_3_active = true;
-const default_bwc_dick_rate_4_active = true;
-const default_bwc_dick_rate_5_active = true;
-const default_bwc_dick_rate_6_active = true;
-const default_bwc_dick_rate_7_active = true;
-const default_bwc_dick_rate_8_active = true;
-const default_bwc_dick_rate_9_active = true;
-const default_bwc_dick_rate_10_active = true;
+const default_bwc_dick_rate_2_active = false;
+const default_bwc_dick_rate_3_active = false;
+const default_bwc_dick_rate_4_active = false;
+const default_bwc_dick_rate_5_active = false;
+const default_bwc_dick_rate_6_active = false;
+const default_bwc_dick_rate_7_active = false;
+const default_bwc_dick_rate_8_active = false;
+const default_bwc_dick_rate_9_active = false;
+const default_bwc_dick_rate_10_active = false;
 
 const modded_dicks_list = [
   //   {
@@ -111,8 +111,7 @@ const default_dicks = {
       {
         Rate: 3,
         Active: default_bwc_dick_rate_3_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "131",
             Img_Type: ".jpg",
             Balls_Desc: "fat",
@@ -147,8 +146,7 @@ const default_dicks = {
       {
         Rate: 4,
         Active: default_bwc_dick_rate_4_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "4",
             Img_Type: ".jpg",
             Balls_Desc: "huge",
@@ -183,8 +181,7 @@ const default_dicks = {
       {
         Rate: 5,
         Active: default_bwc_dick_rate_5_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "10",
             Img_Type: ".jpg",
             Balls_Desc: "dangling",
@@ -289,8 +286,7 @@ const default_dicks = {
       {
         Rate: 6,
         Active: default_bwc_dick_rate_6_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "2",
             Img_Type: ".jpg",
             Balls_Desc: "twitching",
@@ -515,8 +511,7 @@ const default_dicks = {
       {
         Rate: 7,
         Active: default_bwc_dick_rate_7_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "1",
             Img_Type: ".jpg",
             Balls_Desc: "tight",
@@ -821,8 +816,7 @@ const default_dicks = {
       {
         Rate: 8,
         Active: default_bwc_dick_rate_8_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "7",
             Img_Type: ".jpg",
             Balls_Desc: "big",
@@ -1197,8 +1191,7 @@ const default_dicks = {
       {
         Rate: 9,
         Active: default_bwc_dick_rate_9_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "3",
             Img_Type: ".jpg",
             Balls_Desc: "hefty",
@@ -1473,8 +1466,7 @@ const default_dicks = {
       {
         Rate: 10,
         Active: default_bwc_dick_rate_10_active,
-        Dick_List: [
-          {
+        Dick_List: [{
             Picture_Name: "6",
             Img_Type: ".jpg",
             Balls_Desc: "giant",
@@ -2020,4 +2012,68 @@ const default_dicks = {
   }]
 }
 
+// From base game
 
+function toMap(e) {
+  var s = new Map;
+  for (var t in e) {
+    if (void 0 === e[t]) {
+      var a = Object.keys(e);
+      throw Error("Setting an undefined value for '" + t + "' in a map with keys " + a)
+    }
+    s.set(t + "", e[t])
+  }
+  return s
+}
+
+// Modified from base game
+
+var buildCock = function (var_base_path, var_dick_type, var_dick_name, var_img_type, var_balls_desc, var_cock_desc, var_tip_desc, var_cock_rating, var_cock_fatness, var_cock_length, var_balls_size) {
+  return toMap({
+    cock: var_dick_name,
+    ballsdesc: var_balls_desc,
+    cockdesc: var_cock_desc,
+    tipdesc: var_tip_desc,
+    cockrating: var_cock_rating,
+    cockfatness: var_cock_fatness,
+    cocklength: var_cock_length,
+    ballsize: var_balls_size,
+    cockimg: var_base_path + var_dick_type + "/" + var_dick_name + var_img_type
+  })
+};
+
+
+// New functions
+
+window.GE.cock_database = new Map;
+
+function add_dicks_to_database(dick_conf) {
+  if (dick_conf !== null) {
+    const base_path = dick_conf.Base_Path;
+    dick_conf.Dick_Type_Map.forEach((dick_type_filter) => {
+      const dick_type = dick_type_filter.Dick_Type;
+      dick_type_filter.Rating_Map.forEach((rating_filter) => {
+        if (rating_filter.Active) {
+          const rating = rating_filter.Rate;
+          rating_filter.Dick_List.forEach((dick_stats) => {
+            if (!window.GE.cock_database.has(dick_type)) {
+              window.GE.cock_database.set(dick_type, new Array);
+            }
+            window.GE.cock_database.get(dick_type).push(buildCock(base_path, dick_type, dick_stats.Picture_Name, dick_stats.Img_Type, dick_stats.Balls_Desc, dick_stats.Cock_Desc, dick_stats.Tip_Desc, rating, dick_stats.Cock_Fatness, dick_stats.Cock_Length, dick_stats.Ball_Size));
+          })
+        }
+      });
+    });
+  }
+}
+
+
+add_dicks_to_database(default_dicks);
+
+if (modded_dicks_list !== null) {
+  modded_dicks_list.forEach((modded_dicks) => {
+    add_dicks_to_database(modded_dicks);
+  });
+}
+
+console.log(window.GE.cock_database)

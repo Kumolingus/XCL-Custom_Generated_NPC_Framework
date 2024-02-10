@@ -1,4 +1,3 @@
-
 const default_genx_active = true;
 const default_genx_bad_active = true;
 const default_genx_chad_active = true;
@@ -17,7 +16,7 @@ const default_millenial_chad_active = true;
 const default_millenial_coworker_active = true;
 const default_millenial_lad_active = true;
 
-const modded_generated_npcs_list = [
+const modded_generate_npcs_list = [
     //     {
     //     Version: "0",
     //         NPC_Generation_Map: [
@@ -56,7 +55,7 @@ const modded_generated_npcs_list = [
 ]
 
 
-const default_generated_npcs = [{
+const default_generate_npcs = {
     Version: "0.1",
     NPC_Generation_Map: [{
             Generation: "genx",
@@ -2250,24 +2249,6 @@ const default_generated_npcs = [{
                             Race: "white",
                             DickType: "bwc"
                         },
-                        [
-                            "4",
-                            9,
-                            [
-                                "blonde _guy",
-                                "sleazy-looking _guy"
-                            ],
-                            [
-                                "a guy with chiseled jawline and piercing blue eyes",
-                                "a guy with high cheekbones and a little smile"
-                            ],
-                            [
-                                "chad",
-                                "creepy",
-                                "bully",
-                                "ambitious"
-                            ]
-                        ],
                         {
                             Picture_Name: "4",
                             Attractiveness: 9,
@@ -2589,4 +2570,79 @@ const default_generated_npcs = [{
         }
 
     ]
-}]
+}
+
+// From base game
+
+function toMap(e) {
+    var s = new Map;
+    for (var t in e) {
+        if (void 0 === e[t]) {
+            var a = Object.keys(e);
+            throw Error("Setting an undefined value for '" + t + "' in a map with keys " + a)
+        }
+        s.set(t + "", e[t])
+    }
+    return s
+}
+
+// New functions
+
+window.GE.guy_database = new Map;
+
+var buildNPC = function (Picture_Name, Attractiveness, Unfamiliar_Name_List, Description_List, Tags, Race, DickType) {
+    return toMap({
+        "picture" : Picture_Name,
+        "looks" : Attractiveness,
+        "unfamiliar names" : Unfamiliar_Name_List,
+        "descriptions" : Description_List,
+        "tags" : Tags,
+        "race" : Race,
+        "dicktype" : DickType
+    });
+
+};
+
+function add_npc_to_database(generate_npcs) {
+    const generation_map = generate_npcs.NPC_Generation_Map;
+    generation_map.forEach((generation_filter) => {
+        if (generation_filter.Active) {
+            const generation = generation_filter.Generation;
+            if (!window.GE.guy_database.has(generation)) {
+                const first_names = generation_filter.First_Names;
+                const hand_description = generation_filter.Hand_Description;
+                window.GE.guy_database.set(generation, new Map);
+                window.GE.guy_database.get(generation).set("first names", first_names);
+                window.GE.guy_database.get(generation).set("hands", hand_description);
+            }
+            generation_filter.NPC_Type_Map.forEach((npc_type_filter) => {
+                if (npc_type_filter.Active) {
+                    const npc_type = npc_type_filter.Type;
+                    if (!window.GE.guy_database.get(generation).has(npc_type)) {
+                        window.GE.guy_database.get(generation).set(npc_type, new Array);
+                    }
+                    npc_type_filter.NPCs.forEach((NPC_stats) => {
+                        window.GE.guy_database.get(generation).get(npc_type).push(buildNPC(NPC_stats.Picture_Name,
+                            NPC_stats.Attractiveness,
+                            NPC_stats.Unfamiliar_Name_List,
+                            NPC_stats.Description_List,
+                            NPC_stats.Tags,
+                            NPC_stats.Race,
+                            NPC_stats.DickType));
+                    });
+                }
+            });
+        }
+    });
+}
+
+
+add_npc_to_database(default_generate_npcs)
+
+if (modded_generate_npcs_list !== null) {
+    modded_generate_npcs_list.forEach((modded_generate_npcs) => {
+        add_dicks_to_database(modded_generate_npcs);
+    });
+}
+
+console.log(window.GE.guy_database);
