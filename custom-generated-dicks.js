@@ -1,4 +1,4 @@
-modded_dicks_map_list = [
+modded_dicks_list = [
   //   {
   //   Version: "0",
   //   Base_Path: "img/minigame/masculinity/cocks/",
@@ -23,7 +23,7 @@ modded_dicks_map_list = [
 ]
 
 
-default_dicks_map = {
+default_dicks = {
   Version: "0.1",
   Base_Path: "img/minigame/masculinity/cocks/",
   Dick_Type_Map: [{
